@@ -1,11 +1,11 @@
 # Rust - Logger
-A Rust cross-platform logger
+A Rust logger
 
 ## Overview
 It creates a log.txt file in the current directory and write each log with this pattern:
 `(data) (time) [type] - message`
 
-## Example
+## Examples
 ```rs
 use rust_logger::log::{LogType, log};
 
