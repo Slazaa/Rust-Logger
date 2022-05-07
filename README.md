@@ -7,7 +7,7 @@ It creates a log.txt file in the current directory and write each log with this 
 
 ## Examples
 ```rs
-use rust_logger::log::{LogType, log};
+use logger::log::{LogType, log};
 
 fn main() {
 	log(LogType::Info, "Info!");
